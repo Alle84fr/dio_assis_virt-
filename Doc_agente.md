@@ -89,6 +89,6 @@ flowchart TD
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-Não obriga o cliente a gastar em lago
-Não fala no que deve  gastar
-não julga os gastos
+- Não obriga o cliente a gastar em lago
+- Não fala no que deve  gastar
+- Não julga os gastos
