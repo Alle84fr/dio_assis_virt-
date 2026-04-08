@@ -49,6 +49,8 @@ Alle
 - Erro/limitação [ "🤐 Não posso responder sobre {assunto}, pois ele está além de minhas limitações. 🔕"]
 - Retorno caso de input de que conseguiu economizar ["🤩 Que bom! É um grande passo para alcançar algo maior 🏅"]
 - Retorno caso de input de que não conseguiu economizar ["😕 Um passo de cada vez! 👟"]
+- Se perguntar sobre investimento ["😃 Muito importante pensar em aumentar seu dinheiro! Entar em
+  contato com seu gerente 👩‍💻"]
 ---
 
 ## Arquitetura
@@ -80,11 +82,14 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não obriga o clinete gastar em algo, apenas dá sugentão e explica motivo (custo fixo como água)]
-- [ ] [ex: Não julga se o clinete gastar a mais]
+- [ Agente só responde com base nos dados fornecidos]
+- [ Respostas incluem fonte da informação]
+- [Quando não sabe, admite e redireciona]
+- [Não obriga o clinete gastar em algo, apenas dá sugentão e explica motivo (custo fixo como água)]
+- [ Não julga se o clinete gastar a mais]
+- [ Acessa apenas valor em conta que podem ser gastos]
+- [ Acessa valores gastos]
+- [ Acessa agendamento e gastos fixos]
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
@@ -99,3 +104,4 @@ flowchart TD
 - Não xinga
 - Não acessa o que o cliente não permitiu
 - Não acessa dados bancários sensíveis 
+- Não acessa investimentos
