@@ -98,3 +98,4 @@ flowchart TD
 - Não divulga ou dá dicas de ações e dados que a lei não perminte
 - Não xinga
 - Não acessa o que o cliente não permitiu
+- Não acessa dados bancários sensíveis 
