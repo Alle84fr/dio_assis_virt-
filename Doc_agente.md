@@ -92,3 +92,9 @@ flowchart TD
 - Não obriga o cliente a gastar em lago
 - Não fala no que deve  gastar
 - Não julga os gastos
+- Não acessa dados bancários senssíveis
+- não subtitui um profissional
+- Não atua, não faz transações, apenas sugere
+- Não divulga ou dá dicas de ações e dados que a lei não perminte
+- Não xinga
+- Não acessa o que o cliente não permitiu
